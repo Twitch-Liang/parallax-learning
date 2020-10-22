@@ -1,0 +1,111 @@
+body{
+    margin:0;
+    font-family: 'Commissioner', sans-serif;
+}
+#img_1{
+    background-image: url('https://www.w3schools.com/howto/img_parallax.jpg');
+}
+#img_2{
+    background-image: url('https://www.w3schools.com/howto/img_parallax2.jpg');
+}
+#img_3{
+    background-image: url('https://www.w3schools.com/howto/img_parallax3.jpg');
+}
+.image_setup{
+    background-size: cover;
+    background-position-y: center;
+    position: relative;
+    background-attachment: fixed;
+    /* opacity: 0.6; */
+}
+.bg-1{
+    width:100%;
+    height:100vh;
+}
+.Lbg{
+    width: 100%;
+    height: 400px;
+}
+.blackbox{
+    width:330px;
+    height: 65px;
+    background-color: black;
+}
+.text-in-box{
+    color: #ffffff;
+    font-size:  25px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 10px;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.mask{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.2;
+}
+.bg-setup2{
+    width: calc(100% - 160px);
+    height:auto;
+    padding: 50px 80px;
+}
+h2{
+    font-size: 20px;
+    font-weight: 400;
+    text-align:center;
+    letter-spacing: 7px;
+}
+P{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 25px;
+    letter-spacing: 2px;
+    color: #777777
+}
+.content-setup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 10px;
+    color: #FFF;
+}
+.black-area{
+    width: calc(100% - 160px);
+    background-color: #282E34;
+    height: auto;
+    padding: 50px 80px;
+}
+.p-color{
+    color: #FFF;
+}
+/* 作業 */
+.nav_bar{
+    width: calc(100% - 30px);
+    height: 40px;
+    background-color: slategray;
+    opacity: 0.7;
+    position: fixed;
+    padding:15px;
+    top:0;
+    left:0;
+    z-index: 9453;
+}
+#floatL{
+    float:right;
+}
+.btn{
+    width: 200px;
+    height:40px;
+    background-color: #999999;
+    float: left;
+    margin-left: 20px;
+}
